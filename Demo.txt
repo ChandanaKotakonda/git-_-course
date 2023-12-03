@@ -1,1 +1,3 @@
 this folder is created from github.
+now added new branch and for branching we use checkout/switch commands.
+git branch -b master/main (this is for main branch creation).
