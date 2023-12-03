@@ -1,3 +1,43 @@
-this folder is created from github.
-now added new branch and for branching we use checkout/switch commands.
-git branch -b master/main (this is for main branch creation).
+git commands for commits:
+git init // to create empty repo default branch is created.
+git branch -b main // other dn master branch or replace master branch
+git add filename
+git status
+git command -m "message"
+git push origin branchname.(to push from local to remote(github))
+##################################################################
+
+git rm --cached filename (it removes from local repo)
+
+after this push command.
+#######################################################################
+
+Branching:
+
+To create any New branch then the command : 
+ git checkout -b newbranch
+
+and same file changes
+
+git add filename
+git status
+git command -m "message"
+
+To check the previous branch then
+
+git switch main(branchname)
+
+to create a new branch by using switch 
+git switch -c branchname
+git branch --all
+
+#############################################################################
+
+MERGING:
+
+git merge branchname
+git push origin branchname
+
+
+############################################################################
+
